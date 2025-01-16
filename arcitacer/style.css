@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.disply-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 21px 24px 20px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+}
+.dark2{
+    color: #424242;
+}
+
+.dark3{
+    color: #727272;
+}
+.dark1{
+    color: 000000;
+}
+
+.bg-lite{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar, .bannar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* bannar style */
+.bannar-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.bannar-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 3.35rem;
+}
+.bannar-detils{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 2rem;
+}
+.bannar img{
+    width: 100%;
+}
+/* responsive desgine */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-list{
+        flex-direction: column;
+    }   
+}
